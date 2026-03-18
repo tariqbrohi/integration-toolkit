@@ -1,4 +1,4 @@
-# 🚀 Integration Toolkit (@devcodebotx/integration-toolkit)
+# Integration Toolkit
 
 ### *One Package. Every Essential Integration.*
 
@@ -6,16 +6,16 @@ The **Integration Toolkit** is a unified, high-performance library providing pro
 
 ---
 
-## 💎 Why One-Package?
+## Why One-Package?
 
-- **📦 Single Installation**: One package for all your service needs.
-- **🛡️ Fully Typed**: Unified TypeScript support across all modules.
-- **⚡ Optimized**: Tree-shakeable, so you only bundle what you use.
-- **🚀 Plug & Play**: Simple class-based architecture.
+- **Single Installation**: One package for all your service needs.
+- **Fully Typed**: Unified TypeScript support across all modules.
+- **Optimized**: Tree-shakeable, so you only bundle what you use.
+- **Plug & Play**: Simple class-based architecture.
 
 ---
 
-## 📦 Installation
+## Installation
 
 Install the entire toolkit with your favorite package manager:
 
@@ -32,7 +32,7 @@ pnpm add @devcodebotx/integration-toolkit
 
 ---
 
-## ⚡ How to Use
+## How to Use
 
 The toolkit is organized into logical namespaces. Here is how you can use them:
 
@@ -77,17 +77,17 @@ import { store, useAppStore } from '@devcodebotx/integration-toolkit';
 
 ---
 
-## 📂 Features At a Glance
+## Features At a Glance
 
-- **💳 Payments**: [Stripe](./src/payments/stripe.ts) • [PayPal](./src/payments/paypal.ts) • [LemonSqueezy](./src/payments/lemonsqueezy.ts) • [Square](./src/payments/square.ts)
-- **🤖 AI**: OpenAI (GPT-4), Gemini (Pro), DeepSeek (Reasoning).
-- **📧 Emails**: SMTP (Nodemailer), Resend API, Mailgun SDK.
-- **☁️ Storage**: AWS S3 (Signed URLs), Cloudinary (Transforms), Supabase.
-- **🧠 State**: Redux Toolkit, Zustand (Persistent Hooks).
+- **Payments**: [Stripe](./src/payments/stripe.ts) • [PayPal](./src/payments/paypal.ts) • [LemonSqueezy](./src/payments/lemonsqueezy.ts) • [Square](./src/payments/square.ts)
+- **AI**: OpenAI (GPT-5), Gemini (Pro), DeepSeek (Reasoning).
+- **Emails**: SMTP (Nodemailer), Resend API, Mailgun SDK.
+- **Storage**: AWS S3 (Signed URLs), Cloudinary (Transforms), Supabase.
+- **State**: Redux Toolkit, Zustand (Persistent Hooks).
 
 ---
 
-## 🛠️ Development & Building
+## Development & Building
 
 To build the toolkit from source:
 ```bash
