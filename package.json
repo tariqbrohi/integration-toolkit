@@ -1,0 +1,40 @@
+{
+  "name": "@devcodebotx/integration-toolkit",
+  "version": "1.0.0",
+  "description": "Unified toolkit for Payments, AI, Emails, Storage, and State Management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/s3-request-presigner": "^3.0.0",
+    "@google/generative-ai": "^0.3.0",
+    "@lemonsqueezy/lemonsqueezy.js": "^4.0.0",
+    "@paypal/checkout-server-sdk": "^1.0.1",
+    "@reduxjs/toolkit": "^2.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "cloudinary": "^2.0.0",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^10.0.0",
+    "nodemailer": "^6.9.0",
+    "openai": "^4.0.0",
+    "react-redux": "^9.0.0",
+    "resend": "^3.0.0",
+    "square": "^44.0.0",
+    "stripe": "^14.0.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/nodemailer": "^6.4.0",
+    "@types/paypal__checkout-server-sdk": "^1.0.0",
+    "@types/react-redux": "^7.1.0",
+    "typescript": "^5.0.0"
+  }
+}
