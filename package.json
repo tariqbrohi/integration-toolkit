@@ -1,6 +1,6 @@
 {
   "name": "@devcodebotx/integration-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unified toolkit for Payments, AI, Emails, Storage, and State Management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
